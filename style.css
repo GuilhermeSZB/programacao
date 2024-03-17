@@ -6,3 +6,12 @@ body{
     background-color: #00D1FF;
     color: white;
 }
+
+.amico-imagem{
+    width: 50%;
+    position: relative;
+}
+
+img{
+    top: 100px;
+}
