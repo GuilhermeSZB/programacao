@@ -1,17 +1,32 @@
-header{
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #00D1FF;
     color: white;
-}
-body{
-    background-color: #00D1FF;
-    color: white;
+    padding: 10px 20px; /* Ajustando o preenchimento do cabeçalho */
+    position: fixed; /* Fixando o cabeçalho na parte superior */
+    top: 0; /* Colocando o cabeçalho no topo da página */
+    width: 100%; /* Definindo a largura do cabeçalho como 100% */
 }
 
-.amico-imagem{
-    width: 50%;
+.header-titulo {
+    margin: 0;
+}
+
+.amico-imagem {
+    width: 25%;
     position: relative;
+    top: 200px; /* Ajustando a posição vertical da imagem */
 }
 
-img{
-    top: 100px;
+.imagem-lista {
+    font-size: 15px;
+    margin-top: 1px; /* Adicionando espaço abaixo do cabeçalho */
+    margin-left: 100px;
+}
+
+body {
+    background-color: #00D1FF;
+    color: white;
 }
