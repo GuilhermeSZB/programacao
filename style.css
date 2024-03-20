@@ -1,32 +1,40 @@
-header {
+.cabecalho-imagem{
+    width: 10%;
+    margin-left: -150px;
+    margin-top: 5px;
+}
+
+.cabecalho {
+    background-image: linear-gradient(#02aec5, #a5a5a5 , #3be8ff );
+    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: #00D1FF;
-    color: white;
-    padding: 10px 20px; /* Ajustando o preenchimento do cabeçalho */
-    position: fixed; /* Fixando o cabeçalho na parte superior */
-    top: 0; /* Colocando o cabeçalho no topo da página */
-    width: 100%; /* Definindo a largura do cabeçalho como 100% */
+    padding: 12px 0;
 }
 
-.header-titulo {
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 64px;
+    font-size: 32px;
+}
+
+*{
     margin: 0;
+    padding: 0;
 }
 
-.amico-imagem {
-    width: 25%;
-    position: relative;
-    top: 200px; /* Ajustando a posição vertical da imagem */
+.escola-imagem{
+    width: 30%;
+    margin-left: -1500px;
 }
 
-.imagem-lista {
-    font-size: 15px;
-    margin-top: 1px; /* Adicionando espaço abaixo do cabeçalho */
-    margin-left: 100px;
-}
-
-body {
-    background-color: #00D1FF;
+.escola{
+    background-image: linear-gradient(#00E0FF,#41e9ff, #88f0fd, #bef6fd, white);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
 }
