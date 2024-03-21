@@ -5,7 +5,7 @@
 }
 
 .cabecalho {
-    background-image: linear-gradient(#03c2db, #0295a8 , #03b5cc );
+    background-image: linear-gradient(#0293a7, #03a7bd , #03cee9 );
     color: white;
     display: flex;
     justify-content: space-around;
@@ -30,11 +30,49 @@
 }
 
 .escola{
-    background-image: linear-gradient(#03c2db, #00E0FF, #8ff2ff, #e6fbff00);
+    background-image: linear-gradient(#03cee9, #00E0FF, #56ebff, #e6fbff00);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
 
+}
+
+.estudante-natsu{
+    width: 25%;
+    margin-top: 100px;
+}
+
+.estudantes-titulo{
+    margin-left: 750px;
+    font-size: 36px;
+}
+
+.insta-1{
+    width: 2.5%;
+    position: relative;
+    top: -350px;
+    left: 350px;
+}
+
+.twitter{
+    width: 2.5%;
+    position: relative;
+    top: -270px;
+    left: 300px;
+}
+
+.estudante-nome-natsu {
+    font-size: 24px;
+    position: relative;
+    top: -285px;
+    margin-left: 410px;
+}
+
+.estudante-nome-natsu-2 {
+    font-size: 24px;
+    position: relative;
+    margin-left: 410px;
+    top: -230px;
 }
