@@ -27,6 +27,7 @@
 .escola-imagem{
     width: 30%;
     margin-left: -1500px;
+    display: flex;
 }
 
 .escola{
@@ -40,16 +41,19 @@
 }
 
 .estudante-natsu{
+    display: flex;
     width: 25%;
     margin-top: 100px;
 }
 
 .estudantes-titulo{
+    display: flex;
     margin-left: 750px;
     font-size: 36px;
 }
 
 .insta-1{
+    display: flex;
     width: 2.5%;
     position: relative;
     top: -350px;
@@ -57,13 +61,15 @@
 }
 
 .twitter{
+    display: flex;
     width: 2.5%;
     position: relative;
-    top: -270px;
-    left: 300px;
+    top: -320px;
+    left: 350px;
 }
 
 .estudante-nome-natsu {
+    display: flex;
     font-size: 24px;
     position: relative;
     top: -285px;
@@ -71,6 +77,7 @@
 }
 
 .estudante-nome-natsu-2 {
+    display: flex;
     font-size: 24px;
     position: relative;
     margin-left: 410px;
